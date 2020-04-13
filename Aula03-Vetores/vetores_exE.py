@@ -6,16 +6,16 @@
 #Imprima o resultado na tela.
 
 def main():
-    lista = []
+    registros = []
     for i in range(0,5):
         nome = input("nome "+str(i+1)+ ": ")
-        lista.append(nome)
-    print("lista original: ", lista)
+        registros.append(nome)
+    print("lista original: ", registros)
 
-    lista.append("Aline")
-    print("lista modificada 1: ", lista)
-    lista.insert(1, "Morais")
-    print("lista modificada 2: ", lista)
+    registros.append("Aline")
+    print("lista modificada 1: ", registros)
+    registros.insert(1, "Morais")
+    print("lista modificada 2: ", registros)
 
 main()
 
